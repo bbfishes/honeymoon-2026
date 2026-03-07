@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[66623,["/honeymoon-2026/_next/static/chunks/ea35ea5ca0414d24.js"],"default"]
 3:I[18277,["/honeymoon-2026/_next/static/chunks/ea35ea5ca0414d24.js"],"default"]
-0:{"buildId":"zQaBW1_R7EFTOIW17GRAc","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"7CRypF19skdmv4hrqFQwx","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
