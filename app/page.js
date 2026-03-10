@@ -158,58 +158,68 @@ const itinerary = [
   }
 ];
 
+
 const restaurants = {
   '首爾地區': [
+    { name: 'Cafe Eero (카페 이로)', desc: '瑞草區有瀑布的藝術感咖啡廳，推薦黑芝麻拿鐵。', link: 'https://map.naver.com/v5/search/%EC%B9%B4%ED%8E%98%20%EC%9D%B4%EB%A1%9C' },
+    { name: '藍瓶 三清韓屋店', desc: '景福宮旁最有質感的韓屋咖啡，建議提早預約甜點套餐。', link: 'https://m.place.naver.com/place/1470433292' },
+    { name: '月亮廣場炭烤', desc: '乙支路非常有露營營火氣氛的烤雞店，宵夜首選。', link: 'https://map.naver.com/v5/search/%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%B4%91%EC%9E%A5%EB%B0%94%EB%B2%A0%ED%81%90' },
+    { name: '山清炭火花園', desc: '乙支路最強排隊黑豬肉，記得先去 Catch Table 抽號碼牌。', link: 'https://m.place.naver.com/restaurant/1957519694/home' },
+    { name: 'LEEDORIM (이도림)', desc: '西村有冒煙火山造景的浮誇咖啡廳，可麗露必點。', link: 'https://map.naver.com/v5/search/%EC%9D%B4%EB%8F%84%EB%A6%BC' },
+    { name: '土俗村參雞湯', desc: '景福宮旁最經典的補身聖品，韓屋建築氛圍感滿分。', link: 'https://naver.me/xqF8xP7A' },
+    { name: 'Maman Gelato', desc: '聖水洞超紅義式冰淇淋，開心果口味是王牌。', link: 'https://m.place.naver.com/restaurant/1414114341/home' },
+    { name: 'Standard Bread', desc: '聖水洞現烤焦糖布丁吐司，記得下午先預約。', link: 'https://m.place.naver.com/restaurant/1334114341/home' },
+    { name: '林盛根國家認證排骨', desc: '新堂站 CP 值爆表，點肉送醬蟹無限自助吧。', link: 'https://m.place.naver.com/place/36419000' },
+    { name: '洪別監家 (홍별감네)', desc: '朱綺郁推薦的中谷站美食，必吃五花肉與家常蛋飯。', link: 'https://map.naver.com/v5/search/%ED%99%8D%EB%B3%84%EA%B0%90%EB%84%A4' },
     { name: 'Dotgogi 506 (돝고기506)', desc: '江南超人氣烤肉，BTS 朝聖的 506 小時乾式熟成豬五花，必點松露奶油炒飯。', link: 'https://map.naver.com/p/search/%EB%8F%9D%EA%B3%A0%EA%B8%B0506' },
     { name: '百濟蔘雞湯', desc: '明洞老字號，烏骨雞湯頭燉煮入味，蜜月補氣首選。', link: 'https://map.naver.com/p/search/%EB%B0%B1%EC%A0%9C%EC%82%BC%EA%B3%84%ED%83%95' },
     { name: '厚肉 (두툼)', desc: '首爾站旁名店，熟成厚切五花肉口感驚豔，肉汁在嘴裡爆發。', link: 'https://map.naver.com/p/search/%EB%91%90%ED%88%BC' },
     { name: '陳玉華老奶奶元祖一隻雞', desc: '東大門必吃！清甜蒜香雞湯搭配年糕與麵條，簡單卻極度美味。', link: 'https://map.naver.com/p/search/%EC%A7%84%EC%98%A5%ED%99%94%ED%95%A0%EB%A7%A4%EC%9B%90%EC%A1%B0%EB%8B%AD%ED%95%9C%EB%A7%88%EB%A6%AC' },
     { name: '橋村炸雞 (KyoChon)', desc: '經典蜂蜜蒜味炸雞，外皮酥脆甜香，搭配啤酒是韓國宵夜霸主。', link: 'https://map.naver.com/p/search/%EA%B5%90%EC%B4%8C%EC%B9%98%ED%82%A8%20%ED%99%8D%EB%8C%80' },
     { name: '荒謬的生肉', desc: '高CP值烤豬五花吃到飽，想大口吃肉補充體力時的極佳選擇。', link: 'https://map.naver.com/p/search/%EC%97%89%ED%84%B0%EB%A6%AC%EC%83%9D%EA%B3%A0%EA%B8%B0%20%EB%AA%85%EB%8F%99' },
-    { name: '神仙雪濃湯', desc: '濃郁牛骨白湯配上香Q米飯與泡菜，早上暖胃非常舒服。', link: 'https://map.naver.com/p/search/%EC%8B%A0%EC%84%A0%EC%84%A4%EB%86%8D%ED%83%95' },
+    { name: '神仙雪濃湯', desc: '濃郁牛骨白湯配上香Q米飯與泡菜，早上暖胃非常舒服。', link: 'https://map.naver.com/p/search/%EC%8B%A0%EC%84%A4%EB%86%8D%ED%83%95' },
     { name: '站著吃烤肉', desc: '鐵桶炭火烤帶骨牛小排，體驗最道地、最接地氣的韓國立食文化。', link: 'https://map.naver.com/p/search/%EC%97%B0%EB%82%A8%EC%84%9C%EC%8B%9D%EB%8B%B9' },
     { name: '廣藏市場 順熙家綠豆煎餅', desc: '傳統市場的道地美味，現煎綠豆餅配上馬格利酒超有氣氛。', link: 'https://map.naver.com/p/search/%EC%88%9C%ED%9D%AC%EB%84%A4%EB%B9%88%EB%8C%80%EB%96%A1' },
     { name: 'Cafe Onion 聖水洞', desc: '工業風廢墟改建的超人氣烘焙咖啡廳，麵包極具水準。', link: 'https://map.naver.com/p/search/%EC%96%B4%EB%8B%88%EC%96%B8%20%EC%84%B1%EC%88%98' }
   ],
   '福岡地區': [
     { name: '博多 うなぎ屋 藤う那', desc: '博多站旁高級鰻魚飯專賣，外皮酥脆、肉質軟嫩，蜜月必吃的高級享受。', link: 'https://maps.app.goo.gl/6VEyg6ajcGJgUqgs9?g_st=ic' },
-    { name: 'Shin-Shin 拉麵', desc: '天神本店，豚骨精華湯頭濃郁卻不膩口，麵條極細非常順口。', link: 'https://www.google.com/maps/search/?api=1&query=Shin-Shin拉麵+天神本店' },
-    { name: '元祖牛腸鍋 樂天地', desc: '滿滿鮮甜高麗菜與肥美牛小腸，福岡必吃的靈魂鄉土料理。', link: 'https://www.google.com/maps/search/?api=1&query=元祖牛腸鍋+樂天地+天神' },
-    { name: '一蘭拉麵 總本店', desc: '朝聖一蘭發源地，整棟燈籠建築超吸睛，品嚐最經典的豚骨風味。', link: 'https://www.google.com/maps/search/?api=1&query=一蘭拉麵+總本店+中洲' },
+    { name: 'Shin-Shin 拉麵', desc: '天神本店，豚骨精華湯頭濃郁卻不膩口，麵條極細非常順口。', link: 'https://www.google.com/maps/search/?api=1&query=Shin-Shin%E6%8B%89%E9%BA%B5+%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97' },
+    { name: '元祖牛腸鍋 樂天地', desc: '滿滿鮮甜高麗菜與肥美牛小腸，福岡必吃的靈魂鄉土料理。', link: 'https://www.google.com/maps/search/?api=1&query=%E5%85%83%E7%A5%96%E7%89%9B%E8%85%B8%E9%8D%8B+%E6%A8%82%E5%A4%A9%E5%9C%B0+%E5%A4%A9%E7%A5%9E' },
+    { name: '一蘭拉麵 總本店', desc: '朝聖一蘭發源地，整棟燈籠建築超吸睛，品嚐最經典的豚骨風味。', link: 'https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E8%98%AD%E6%8B%89%E9%BA%B5+%E7%B8%BD%E6%9C%AC%E5%BA%97+%E4%B8%AD%E6%B4%B2' },
     { name: '博多華味鳥 博多駅筑紫口店', desc: '頂級水炊鍋代表，自家飼養雞肉與熬煮出的乳白色膠原蛋白鮮湯。', link: 'https://maps.app.goo.gl/B9emNvnZ3Z5aaBoV7?g_st=ic' },
-    { name: '敘敘苑 (KITTE博多)', desc: '日本高級燒肉代名詞，服務極佳，適合安排一頓浪漫的蜜月晚餐。', link: 'https://www.google.com/maps/search/?api=1&query=敘敘苑+KITTE博多' },
-    { name: '稚加榮', desc: '店內有巨大水槽的活魚料亭，午間的明太子定食豪華又超值。', link: 'https://www.google.com/maps/search/?api=1&query=稚加榮+赤坂' },
-    { name: '中洲屋台 十番', desc: '感受福岡獨有的夜生活，坐在屋台吃關東煮、明太子玉子燒配啤酒。', link: 'https://www.google.com/maps/search/?api=1&query=中洲屋台+福岡' },
-    { name: '努努雞 (博多車站)', desc: '顛覆常理的「冷吃炸雞」，甜辣酥脆超涮嘴，買回飯店下酒必備。', link: 'https://www.google.com/maps/search/?api=1&query=努努雞+博多車站' },
-    { name: '伊都きんぐ (天神)', desc: '福岡名產「甘王草莓」甜點專賣，現打草莓冰沙與銅鑼燒絕讚。', link: 'https://www.google.com/maps/search/?api=1&query=伊都きんぐ+天神' }
+    { name: '敘敘苑 (KITTE博多)', desc: '日本高級燒肉代名詞，服務極佳，適合安排一頓浪漫的蜜月晚餐。', link: 'https://www.google.com/maps/search/?api=1&query=%E6%95%98%E6%95%98%E8%8B%91+KITTE%E5%8D%9A%E5%A4%9A' },
+    { name: '稚加榮', desc: '店內有巨大水槽的活魚料亭，午間的明太子定食豪華又超值。', link: 'https://www.google.com/maps/search/?api=1&query=%E7%A8%9A%E5%8A%A0%E6%A6%AE+%E8%B5%A4%E5%9D%82' },
+    { name: '中洲屋台 十番', desc: '感受福岡獨有的夜生活，坐在屋台吃關東煮、明太子玉子燒配啤酒。', link: 'https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E6%B4%B2%E5%B1%8B%E5%8F%B0+%E7%A6%8F%E5%B2%A1' },
+    { name: '努努雞 (博多車站)', desc: '顛覆常理的「冷吃炸雞」，甜辣酥脆超涮嘴，買回飯店下酒必備。', link: 'https://www.google.com/maps/search/?api=1&query=%E5%8A%AA%E5%8A%AA%E9%9B%9E+%E5%8D%9A%E5%A4%9A%E8%BB%8A%E7%AB%99' },
+    { name: '伊都きんぐ (天神)', desc: '福岡名產「甘王草莓」甜點專賣，現打草莓冰沙與銅鑼燒絕讚。', link: 'https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%83%BD%E3%81%8D%E3%82%93%E3%81%90+%E5%A4%A9%E7%A5%9E' }
   ],
   '由布院地區': [
-    { name: '由布まぶし 心', desc: '必吃豐後牛釜飯三吃（原味、拌料、茶泡飯），鍋巴焦香令人回味無窮。', link: 'https://www.google.com/maps/search/?api=1&query=由布まぶし+心+駅前支店' },
-    { name: 'B-speak', desc: '由布院最難買的蛋糕捲，鮮奶油清爽不膩，海綿蛋糕鬆軟濕潤。', link: 'https://www.google.com/maps/search/?api=1&query=B-speak+由布院' },
-    { name: '金賞可樂餅', desc: '酥脆外皮包覆著入口即化的和牛與馬鈴薯內餡，最佳散步小吃。', link: 'https://www.google.com/maps/search/?api=1&query=金賞可樂餅+湯之坪' },
-    { name: 'SNOOPY 茶屋', desc: '日式庭園結合史努比主題，抹茶甜點可愛又精緻，拍照打卡聖地。', link: 'https://www.google.com/maps/search/?api=1&query=SNOOPY茶屋+由布院' },
-    { name: 'Yufuin Milch', desc: '招牌半熟起司蛋糕，剛出爐熱騰騰的爆漿口感與冷藏後的綿密都極棒。', link: 'https://www.google.com/maps/search/?api=1&query=Yufuin+Milch+由布院' },
-    { name: '櫟之丘 (Kunugi no Oka)', desc: '隱藏版半山腰餐廳，提供正宗石窯披薩，還能俯瞰由布院盆地絕景。', link: 'https://www.google.com/maps/search/?api=1&query=櫟之丘+由布院' },
-    { name: '湯之岳庵', desc: '位於金鱗湖畔「龜之井別莊」內，在古樸環境中享用頂級和食與山菜料理。', link: 'https://www.google.com/maps/search/?api=1&query=湯之岳庵+由布院' },
-    { name: 'Cafe La Ruche', desc: '金鱗湖畔第一排景觀咖啡廳，法式麵包與咖啡是享受晨霧的最佳搭配。', link: 'https://www.google.com/maps/search/?api=1&query=Cafe+La+Ruche+由布院' },
-    { name: '鞠智 (Cucuchi)', desc: '嚴選大分在地食材，現炸的豐後牛極上可樂餅與手工銅鑼燒都非常推薦。', link: 'https://www.google.com/maps/search/?api=1&query=鞠智+由布院' },
-    { name: '花野蕎麥麵', desc: '講究的手工現打蕎麥麵，清爽無負擔，適合在溫泉大餐之間換換口味。', link: 'https://www.google.com/maps/search/?api=1&query=花野蕎麥麵+由布院' }
+    { name: '由布まぶし 心', desc: '必吃豐後牛釜飯三吃（原味、拌料、茶泡飯），鍋巴焦香令人回味無窮。', link: 'https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E3%81%BE%E3%81%B6%E3%81%97+%E5%BF%83+%E9%A7%85%E5%89%8D%E6%94%AF%E5%BA%97' },
+    { name: 'B-speak', desc: '由布院最難買的蛋糕捲，鮮奶油清爽不膩，海綿蛋糕鬆軟濕潤。', link: 'https://www.google.com/maps/search/?api=1&query=B-speak+%E7%94%B1%E5%B8%83%E9%99%A2' },
+    { name: '金賞可樂餅', desc: '酥脆外皮包覆著入口即化的和牛與馬鈴薯內餡，最佳散步小吃。', link: 'https://www.google.com/maps/search/?api=1&query=%E9%87%91%E8%B3%9E%E5%8F%AF%E6%A8%82%E9%A4%85+%E6%B9%AF%E4%B9%8B%E5%9D%AA' },
+    { name: 'SNOOPY 茶屋', desc: '日式庭園結合史努比主題，抹茶甜點可愛又精緻，拍照打卡聖地。', link: 'https://www.google.com/maps/search/?api=1&query=SNOOPY%E8%8C%B6%E5%B1%8B+%E7%94%B1%E5%B8%83%E9%99%A2' },
+    { name: 'Yufuin Milch', desc: '招牌半熟起司蛋糕，剛出爐熱騰騰的爆漿口感與冷藏後的綿密都極棒。', link: 'https://www.google.com/maps/search/?api=1&query=Yufuin+Milch+%E7%94%B1%E5%B8%83%E9%99%A2' },
+    { name: '櫟之丘 (Kunugi no Oka)', desc: '隱藏版半山腰餐廳，提供正宗石窯披薩，還能俯瞰由布院盆地絕景。', link: 'https://www.google.com/maps/search/?api=1&query=%E6%AB%9F%E4%B9%8B%E4%B8%98+%E7%94%B1%E5%B8%83%E9%99%A2' },
+    { name: '湯之岳庵', desc: '位於金鱗湖畔「龜之井別莊」內，在古樸環境中享用頂級和食與山菜料理。', link: 'https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E4%B9%8B%E5%B2%B3%E5%B5%B5+%E7%94%B1%E5%B8%83%E9%99%A2' },
+    { name: 'Cafe La Ruche', desc: '金鱗湖畔第一排景觀咖啡廳，法式麵包與咖啡是享受晨霧的最佳搭配。', link: 'https://www.google.com/maps/search/?api=1&query=Cafe+La+Ruche+%E7%94%B1%E5%B8%83%E9%99%A2' },
+    { name: '鞠智 (Cucuchi)', desc: '嚴選大分在地食材，現炸的豐後牛極上可樂餅與手工銅鑼燒都非常推薦。', link: 'https://www.google.com/maps/search/?api=1&query=%E9%9E%A0%E6%99%BA+%E7%94%B1%E5%B8%83%E9%99%A2' },
+    { name: '花野蕎麥麵', desc: '講究的手工現打蕎麥麵，清爽無負擔，適合在溫泉大餐之間換換口味。', link: 'https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E9%87%8E%E8%95%8E%E9%BA%A5%E9%BA%B5+%E7%94%B1%E5%B8%83%E9%99%A2' }
   ],
   '熊本與柳川': [
-    { name: '勝烈亭', desc: '熊本必吃！米其林推薦的厚切酥脆豬排，搭配秘製醬汁與特製芝麻。', link: 'https://www.google.com/maps/search/?api=1&query=勝烈亭+新市街本店' },
-    { name: '元祖本吉屋', desc: '柳川百年傳承，蒸籠鰻魚飯將炭香、醬汁與米飯完美融合，極致享受。', link: 'https://www.google.com/maps/search/?api=1&query=元祖本吉屋+柳川' },
-    { name: '黑亭拉麵', desc: '熊本拉麵代表，焦香蒜油與濃郁豚骨交織出的傳統硬派風味。', link: 'https://www.google.com/maps/search/?api=1&query=黑亭拉麵+熊本' },
-    { name: '馬櫻 (馬桜)', desc: '頂級馬肉料理專賣，生馬肉刺身與馬肉燒肉鮮甜無腥味，值得一試。', link: 'https://www.google.com/maps/search/?api=1&query=馬桜+銀座通' },
-    { name: '菅乃屋', desc: '另一家極具盛名的高級馬肉料理亭，服務與餐點精緻度都是蜜月級水準。', link: 'https://www.google.com/maps/search/?api=1&query=菅乃屋+上通' },
-    { name: '赤牛 Dining yoka-yoka', desc: '位於櫻町商場，主打阿蘇特產「赤牛丼」，半熟烤牛肉質鮮嫩不油膩。', link: 'https://www.google.com/maps/search/?api=1&query=赤牛Dining+yoka-yoka+櫻町' },
-    { name: '桂花拉麵', desc: '濃厚豚骨雞肋雙湯頭，配上生高麗菜與蒜香麻油，熊本在地老字號。', link: 'https://www.google.com/maps/search/?api=1&query=桂花拉麵+本店' },
-    { name: '蜂樂饅頭', desc: '熊本超人氣排隊名物，皮薄餡多的大判燒（紅豆餅），散步甜食。', link: 'https://www.google.com/maps/search/?api=1&query=蜂樂饅頭+熊本本店' },
-    { name: '櫻之馬場 城彩苑 香梅庵', desc: '在城彩苑內品嚐熊本傳統和菓子「陣太鼓」，還有好吃的陣太鼓霜淇淋。', link: 'https://www.google.com/maps/search/?api=1&query=香梅庵+城彩苑' },
-    { name: '若松屋', desc: '柳川人氣極高的安政年間老店，蒸籠鰻魚飯口感綿密，風景與味道俱佳。', link: 'https://www.google.com/maps/search/?api=1&query=若松屋+柳川' },
+    { name: '勝烈亭', desc: '熊本必吃！米其林推薦的厚切酥脆豬排，搭配秘製醬汁與特製芝麻。', link: 'https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E7%83%88%E4%BA%AD+%E6%96%B0%E5%B8%82%E8%A1%97%E6%9C%AC%E5%BA%97' },
+    { name: '元祖本吉屋', desc: '柳川百年傳承，蒸籠鰻魚飯將炭香、醬汁與米飯完美融合，極致享受。', link: 'https://www.google.com/maps/search/?api=1&query=%E5%85%83%E7%A5%96%E6%9C%AC%E5%90%89%E5%B1%8B+%E6%9F%B3%E5%B7%9D' },
+    { name: '黑亭拉麵', desc: '熊本拉麵代表，焦香蒜油與濃郁豚骨交織出的傳統硬派風味。', link: 'https://www.google.com/maps/search/?api=1&query=%E9%BB%91%E4%BA%AD%E6%8B%89%E9%BA%B5+%E7%86%8A%E6%9C%AC' },
+    { name: '馬櫻 (馬桜)', desc: '頂級馬肉料理專賣，生馬肉刺身與馬肉燒肉鮮甜無腥味，值得一試。', link: 'https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E6%AB%BB+%E9%8A%80%E5%BA%A7%E9%80%9A' },
+    { name: '菅乃屋', desc: '另一家極具盛名的高級馬肉料理亭，服務與餐點精緻度都是蜜月級水準。', link: 'https://www.google.com/maps/search/?api=1&query=%E8%8F%85%E4%B9%83%E5%B1%8B+%E4%B8%8A%E9%80%9A' },
+    { name: '赤牛 Dining yoka-yoka', desc: '位於櫻町商場，主打阿蘇特產「赤牛丼」，半熟烤牛肉質鮮嫩不油膩。', link: 'https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E7%89%9B+Dining+yoka-yoka+%E6%AB%BB%E7%94%BA' },
+    { name: '桂花拉麵', desc: '濃厚豚骨雞肋雙湯頭，配上生高麗菜與蒜香麻油，熊本在地老字號。', link: 'https://www.google.com/maps/search/?api=1&query=%E6%A1%82%E8%8A%B1%E6%8B%89%E9%BA%B5+%E6%9C%AC%E5%BA%97' },
+    { name: '蜂樂饅頭', desc: '熊本超人氣排隊名物，皮薄餡多的大判燒（紅豆餅），散步甜食。', link: 'https://www.google.com/maps/search/?api=1&query=%E8%9C%82%E6%A8%82%E9%A0%BB%E9%A0%AD+%E7%86%8A%E6%9C%AC%E6%9C%AC%E5%BA%97' },
+    { name: '櫻之馬場 城彩苑 香梅庵', desc: '在城彩苑內品嚐熊本傳統和菓子「陣太鼓」，還有好吃的陣太鼓霜淇淋。', link: 'https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%A2%85%E5%BA%B5+%E5%9F%8E%E5%BD%A9%E8%8B%91' },
+    { name: '若松屋', desc: '柳川人氣極高的安政年間老店，蒸籠鰻魚飯口感綿密，風景與味道俱佳。', link: 'https://www.google.com/maps/search/?api=1&query=%E8%8B%A5%E6%9D%BE%E5%B1%8B+%E6%9F%B3%E5%B7%9D' },
     { name: '一心堂老舗', desc: '宇土市老字號點心店，推薦必吃三種餅皮的泡芙與奶凍，老闆非常熱情。', link: 'https://maps.app.goo.gl/2yrn25KBR5Gxy79WA?g_st=it' }
   ]
 };
-
 const tips = [
   { title: '✈️ 航班資訊', desc: '3/21 韓亞 OZ712 (11:40-15:25) | 3/24 首爾 RS727 (14:25-15:55) | 4/01 華航 CI117 (21:00-22:30)' },
   { title: '🚗 九州自駕', desc: '日本為右駕，請備妥駕照日文譯本與台灣駕照。九州高速公路建議租用 KEP (Kyushu Expressway Pass) 以節省過路費。' },
