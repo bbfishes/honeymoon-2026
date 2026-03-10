@@ -42,8 +42,15 @@ const itinerary = [
 ];
 
 const restaurants = [
-  { city: '首爾', name: '百濟蔘雞湯', desc: '明洞老字號，補補身體好體力。' },
-  { city: '首爾', name: '厚肉 (두툼)', desc: '首爾站附近超強烤肉，豬頸肉必點。' },
+  { city: '首爾', name: 'Cafe Eero (카페 이로)', desc: '瑞草區有瀑布的藝術感咖啡廳，推薦黑芝麻拿鐵。' },
+  { city: '首爾', name: '藍瓶 三清韓屋店', desc: '景福宮旁最有質感的韓屋咖啡，建議提早預約甜點套餐。' },
+  { city: '首爾', name: '月亮廣場炭烤', desc: '乙支路非常有露營營火氣氛的烤雞店，宵夜首選。' },
+  { city: '首爾', name: '山清炭火花園', desc: '乙支路最強排隊黑豬肉，記得先去 Catch Table 抽號碼牌。' },
+  { city: '首爾', name: 'LEEDORIM (이도림)', desc: '西村有冒煙火山造景的浮誇咖啡廳，可麗露必點。' },
+  { city: '首爾', name: '土俗村參雞湯', desc: '景福宮旁最經典的補身聖品，韓屋建築氛圍感滿分。' },
+  { city: '首爾', name: 'Maman Gelato', desc: '聖水洞超紅義式冰淇淋，開心果口味是王牌。' },
+  { city: '首爾', name: 'Standard Bread', desc: '聖水洞現烤焦糖布丁吐司，記得下午先預約。' },
+  { city: '首爾', name: '林盛根國家認證排骨', desc: '新堂站 CP 值爆表，點肉送醬蟹無限自助吧。' },
   { city: '福岡', name: '肉屋肉一', desc: '博多站高CP值和牛燒肉，記得預約。' },
   { city: '福岡', name: 'Shin-Shin 拉麵', desc: '博多豚骨拉麵名店，湯頭順口。' },
   { city: '由布院', name: '由布まぶし 心', desc: '炭烤豐後牛釜飯三吃，排隊名店。' },
