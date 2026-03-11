@@ -183,6 +183,9 @@ const restaurants = {
     { name: 'Cafe Onion 聖水洞', desc: '工業風廢墟改建的超人氣烘焙咖啡廳，麵包極具水準。', link: 'https://map.naver.com/p/search/%EC%96%B4%EB%8B%88%EC%96%B8%20%EC%84%B1%EC%88%98' }
   ],
   '福岡地區': [
+    { name: '食堂おわん (Owan)', desc: '溫馨食堂，主打現煮白飯與明太子比較定食，一次品嚐多款明太子。', link: 'https://www.google.com/maps/search/?api=1&query=食堂おわん+福岡' },
+    { name: '炉端ノいとおかし', desc: '職人火候掌控的銀鮭與鰻魚定食，搭配土鍋白飯，早餐首選。', link: 'https://www.google.com/maps/search/?api=1&query=炉端ノいとおかし+福岡' },
+    { name: 'さばたろう (Sabataro)', desc: '一人一鍋現煮白飯，搭配胡麻鯖魚等在地食材，純粹的九州美味。', link: 'https://www.google.com/maps/search/?api=1&query=さばたろう+福岡' },
     { name: '屋台まみちゃん (Mamichan)', desc: '天神人氣屋台，老闆號稱「日本第一快火燄廚師」，推薦炒飯與各種熱炒料理。', link: 'https://www.google.com/maps/search/?api=1&query=屋台まみちゃん+福岡+天神2-13-1' },
     { name: '博多 うなぎ屋 藤う那', desc: '博多站旁高級鰻魚飯專賣，外皮酥脆、肉質軟嫩，蜜月必吃的高級享受。', link: 'https://maps.app.goo.gl/6VEyg6ajcGJgUqgs9?g_st=ic' },
     { name: 'Shin-Shin 拉麵', desc: '天神本店，豚骨精華湯頭濃郁卻不膩口，麵條極細非常順口。', link: 'https://www.google.com/maps/search/?api=1&query=Shin-Shin%E6%8B%89%E9%BA%B5+%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97' },
