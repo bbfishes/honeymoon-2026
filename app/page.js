@@ -183,7 +183,8 @@ const restaurants = {
     { name: 'Cafe Onion 聖水洞', desc: '工業風廢墟改建的超人氣烘焙咖啡廳，麵包極具水準。', link: 'https://map.naver.com/p/search/%EC%96%B4%EB%8B%88%EC%96%B8%20%EC%84%B1%EC%88%98' }
   ],
   '福岡地區': [
-    { name: '食堂おわん (Owan)', desc: '溫馨食堂，主打現煮白飯與明太子比較定食，一次品嚐多款明太子。', link: 'https://www.google.com/maps/search/?api=1&query=食堂おわん+福岡' },
+    { name: '食堂うめぼし (Umeboshi)', desc: '天神南站旁的質感食堂，名物是燉煮入味的「豬肉肉豆腐」，白飯殺手等級美味。', link: 'https://www.google.com/maps/search/?api=1&query=食堂うめぼし+天神南' },
+    { name: '食堂おわn (Owan)', desc: '溫馨食堂，主打現煮白飯與明太子比較定食，一次品嚐多款明太子。', link: 'https://www.google.com/maps/search/?api=1&query=食堂おわん+福岡' },
     { name: '炉端ノいとおかし', desc: '職人火候掌控的銀鮭與鰻魚定食，搭配土鍋白飯，早餐首選。', link: 'https://www.google.com/maps/search/?api=1&query=炉端ノいとおかし+福岡' },
     { name: 'さばたろう (Sabataro)', desc: '一人一鍋現煮白飯，搭配胡麻鯖魚等在地食材，純粹的九州美味。', link: 'https://www.google.com/maps/search/?api=1&query=さばたろう+福岡' },
     { name: '屋台まみちゃん (Mamichan)', desc: '天神人氣屋台，老闆號稱「日本第一快火燄廚師」，推薦炒飯與各種熱炒料理。', link: 'https://www.google.com/maps/search/?api=1&query=屋台まみちゃん+福岡+天神2-13-1' },
