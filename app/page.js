@@ -183,7 +183,7 @@ const restaurants = {
     { name: 'Cafe Onion 聖水洞', desc: '工業風廢墟改建的超人氣烘焙咖啡廳，麵包極具水準。', link: 'https://map.naver.com/p/search/%EC%96%B4%EB%8B%88%EC%96%B8%20%EC%84%B1%EC%88%98' }
   ],
   '福岡地區': [
-    { name: '屋台まみちゃん (Mamichan)', desc: '天神人氣屋台，老闆號稱「日本第一快火燄廚師」，推薦炒飯與各種熱炒料理。', link: 'https://maps.app.goo.gl/v6REksSqfksvQ6vS9' },
+    { name: '屋台まみちゃん (Mamichan)', desc: '天神人氣屋台，老闆號稱「日本第一快火燄廚師」，推薦炒飯與各種熱炒料理。', link: 'https://www.google.com/maps/search/?api=1&query=屋台まみちゃん+福岡+天神2-13-1' },
     { name: '博多 うなぎ屋 藤う那', desc: '博多站旁高級鰻魚飯專賣，外皮酥脆、肉質軟嫩，蜜月必吃的高級享受。', link: 'https://maps.app.goo.gl/6VEyg6ajcGJgUqgs9?g_st=ic' },
     { name: 'Shin-Shin 拉麵', desc: '天神本店，豚骨精華湯頭濃郁卻不膩口，麵條極細非常順口。', link: 'https://www.google.com/maps/search/?api=1&query=Shin-Shin%E6%8B%89%E9%BA%B5+%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97' },
     { name: '元祖牛腸鍋 樂天地', desc: '滿滿鮮甜高麗菜與肥美牛小腸，福岡必吃的靈魂鄉土料理。', link: 'https://www.google.com/maps/search/?api=1&query=%E5%85%83%E7%A5%96%E7%89%9B%E8%85%B8%E9%8D%8B+%E6%A8%82%E5%A4%A9%E5%9C%B0+%E5%A4%A9%E7%A5%9E' },
