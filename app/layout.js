@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: '蜜月行程 App',
-  description: '思淵與夫人的蜜月行程',
+  title: '蜜月行程',
+  description: '蜜月行程',
 };
 
 export default function RootLayout({ children }) {
